@@ -1,0 +1,6 @@
+rg_name     = "rg-aks"
+rg_location = "eastus"
+aks_name = "aks-cluster"
+name_nodepool = "default"
+vm_size = "Standard_B2ms"
+dns_aks = "akscluster"
