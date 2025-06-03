@@ -13,7 +13,7 @@ resource "azurerm_kubernetes_cluster" "my-aks" {
 
    azure_active_directory_role_based_access_control {
     azure_rbac_enabled = true
-    admin_group_object_ids = ["4a1457c9-1a62-4f39-ae25-3d360c0433c8" # Substitua Object ID do seu grupo de administradores no Azure AD
+    admin_group_object_ids = ["4a1457c9-1a62-444f39-ae25-3d4360c0433c8" # Substitua Object ID do seu grupo de administradores no Azure AD
     ]
   }
 
